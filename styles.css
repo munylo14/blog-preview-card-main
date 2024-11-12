@@ -1,0 +1,116 @@
+/* This is the imports for the custom font for this project */
+
+@font-face {
+    font-family: Figtree;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url(./assets/fonts/static/Figtree-SemiBold.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+}
+
+/* These are the custom CSS classes for this project */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree';
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.blog-card {
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+    width: 350px;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid black;
+    box-shadow: .5em .5em black;
+}
+
+.card-content {
+    padding: 1em;
+}
+
+.section-text {
+    padding-top: .75em;
+}
+
+.section-date {
+    font-weight: 300;
+    font-size: .85em;
+}
+
+.section-heading {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.section-description {
+    color: hsl(0, 0%, 42%);
+}
+
+.section-profilepic {
+    display: inline-block;
+    width: 2em;
+}
+
+.section-signature {
+    font-weight: bold;
+    font-size: .85em;
+}
+
+.blog-header-img {
+    width: 320px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.card-content-text {
+    margin: 5px;
+}
+
+.blog-title {
+    background-color:hsl(47, 88%, 63%);
+    width: 75px;
+    padding: .45em;
+    margin-top: 20px;
+
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
