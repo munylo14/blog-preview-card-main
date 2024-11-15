@@ -73,14 +73,21 @@ footer {
     color: hsl(0, 0%, 42%);
 }
 
+.section-namebadge {
+    display: flex;
+    align-items: center;
+}
+
 .section-profilepic {
-    display: inline-block;
+    display: block;
+    float: left;
     width: 2em;
 }
 
 .section-signature {
     font-weight: bold;
     font-size: .85em;
+    margin-left: 10px;
 }
 
 .blog-header-img {
